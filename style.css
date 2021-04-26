@@ -1,0 +1,24 @@
+body {
+    /* background-color: cornflowerblue; */
+}
+
+header {
+    background-color: rgb(58, 58, 58);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px auto;
+}
+
+main {
+    position: absolute;
+    top: 60px;
+}
