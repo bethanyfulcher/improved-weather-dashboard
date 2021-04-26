@@ -1,24 +1,56 @@
 body {
     /* background-color: cornflowerblue; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
     background-color: rgb(58, 58, 58);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
     font-size: 20px;
     color: white;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    z-index: 5
 }
 
 h1 {
-    margin: 10px auto;
+    margin-left: 15px;
 }
 
 main {
     position: absolute;
-    top: 60px;
+    top: 100px;
+}
+
+#search {
+    position: fixed;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(165, 165, 165); */
+    /* width: 100%; */
+    height: auto;
+    top: 20px;
+    right: 15px;
+}
+
+#search-input {
+    height: 20px;
+    font-size: 15px;
+    background-color: rgb(192, 190, 190);
+}
+
+#submit-btn {
+    height: 20px;
+}
+
+#search-text {
+    /* color: black; */
+    /* margin-top: 26.8px; */
+    font-size: 20px;
 }
