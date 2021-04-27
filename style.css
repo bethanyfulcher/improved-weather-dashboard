@@ -1,31 +1,38 @@
 body {
     /* background-color: cornflowerblue; */
     font-family: 'Ubuntu', sans-serif;
+    /* background-color: #fefbd8; */
 }
 
 header {
-    background-color: rgb(58, 58, 58);
+    background-color: #618685;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
     font-size: 20px;
-    color: white;
+    color: #fefbd8;
     /* text-align: center; */
     display: flex;
     align-items: center;
-    z-index: 5
+    z-index: 5;
+    border-bottom: 20px solid #4040a1;
 }
 
 h1 {
     margin-left: 15px;
+    letter-spacing: 3px;
 }
 
 main {
     position: absolute;
-    top: 100px;
+    top: 120px;
 }
+
+/* =================================================================================== */
+/* search section */
+/* =================================================================================== */
 
 #search {
     position: fixed;
@@ -37,20 +44,42 @@ main {
     height: auto;
     top: 20px;
     right: 15px;
+    margin-top: 20px;
 }
 
 #search-input {
     height: 20px;
-    font-size: 15px;
-    background-color: rgb(192, 190, 190);
+    font-size: 20px;
+    background-color: #618685;
+    color: white;
+    border: none;
+    /* border-radius: 5%; */
+    margin-left: 5px;
+    border-bottom: 5px solid #4040a1;
 }
 
 #submit-btn {
-    height: 20px;
+    height: 27px;
+    background-color: #4040a1;
+    color: white;
+    /* border-radius: 5%; */
+    border: none;
+    width: 35px;
 }
 
 #search-text {
     /* color: black; */
     /* margin-top: 26.8px; */
     font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(223, 221, 221);
+}
+
+/* =================================================================================== */
+/* =================================================================================== */
+
+#current-weather {
+
 }
